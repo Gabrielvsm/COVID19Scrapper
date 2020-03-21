@@ -1,0 +1,16 @@
+{
+  "name": "covid19gatherer",
+  "version": "1.0.0",
+  "description": "Scrapper to gather information about COVID-19",
+  "main": "app.js",
+  "scripts": {
+    "test": "test",
+    "start": "node app.js"
+  },
+  "author": "Gabriel Vasconcelos",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "cheerio": "^1.0.0-rc.3"
+  }
+}
