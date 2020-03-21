@@ -1,9 +1,7 @@
-require('dotenv').config();
-
 const axios = require('axios');
 const cheerio = require('cheerio');
 
-const url = process.env.URL;
+const url = 'https://www.worldometers.info/coronavirus/country/';
 let cases = {};
 let $;
 
