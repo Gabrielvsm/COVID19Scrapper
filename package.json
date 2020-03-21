@@ -1,5 +1,5 @@
 {
-  "name": "covid19gatherer",
+  "name": "covid19-gatherer",
   "version": "1.0.0",
   "description": "Scrapper to gather information about COVID-19",
   "main": "app.js",
@@ -9,9 +9,20 @@
   },
   "author": "Gabriel Vasconcelos",
   "license": "ISC",
+  "homepage": "https://github.com/Gabrielvsm/COVID19Scrapper",
   "dependencies": {
     "axios": "^0.19.2",
     "cheerio": "^1.0.0-rc.3",
     "dotenv": "^8.2.0"
+  },
+  "contributors": [
+    {
+      "name": "Gabriel Vasconcelos",
+      "url": "https://github.com/Gabrielvsm"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Gabrielvsm/COVID19Scrapper"
   }
 }
