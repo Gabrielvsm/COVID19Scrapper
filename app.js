@@ -33,19 +33,19 @@ async function getCasesByCountry(country){
 }
 
 function getPrimary(panel){
-    let total = panel.find( $('.panel_front') ).children().first().text().trim().replace(",", "");
+    let total = panel.find( $('.panel_front') ).children().first().text().trim().replace(",", "").replace(",", "");
     return parseInt(total);
 }
 
 function getFloatLeft(panel){
     let leftDiv = panel.find( $('.panel_front') ).children().eq(2).children().first();
-    let leftValue = leftDiv.find( $('.number-table') ).text().trim().replace(",", "");
+    let leftValue = leftDiv.find( $('.number-table') ).text().trim().replace(",", "").replace(",", "");
     return parseInt(leftValue);
 }
 
 function getFloatRight(panel){
     let rightDiv = panel.find( $('.panel_front') ).children().eq(2).children().eq(1);
-    let rightValue = rightDiv.find( $('.number-table') ).text().trim().replace(",", "");
+    let rightValue = rightDiv.find( $('.number-table') ).text().trim().replace(",", "").replace(",", "");
     return parseInt(rightValue);
 }
 
