@@ -1,6 +1,6 @@
 {
   "name": "covid19-gatherer",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Scrapper to gather information about COVID-19",
   "main": "app.js",
   "scripts": {
